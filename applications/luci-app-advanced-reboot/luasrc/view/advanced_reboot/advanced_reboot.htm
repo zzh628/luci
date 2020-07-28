@@ -35,9 +35,9 @@
 			<td>
 				<%- if bev1p1 == current_partition then -%><%:Current%><%- else -%><%:Alternative%><%- end -%>
 			</td>
-			<div class="td">
+			<td>
 				<%=p1_os%>
-			</div>
+			</td>
 			<td>
 				<%- if bev1p1 == current_partition then -%>
 				<form method="post" action="<%=url('admin/system/advanced_reboot/reboot')%>">
